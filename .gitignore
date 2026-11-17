@@ -1,0 +1,28 @@
+# Large trained models
+ML/models/
+ML/outputs/*
+!ML/outputs/multi_discharge_validation_v3.csv
+ml_model/
+
+# Nested deployment repository backup
+deployment/git_backup/
+
+# Ignore deployment diagnostics, retain required app data
+deployment/*
+!deployment/coordinate_grids.npz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Temporary files
+~$*.xlsx
+desktop.ini

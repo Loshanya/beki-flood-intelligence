@@ -26,3 +26,9 @@ venv/
 # Temporary files
 ~$*.xlsx
 desktop.ini
+ML/BEKI_FinalQ_*/*
+!ML/BEKI_FinalQ_*/h_avg.xlsx
+!ML/BEKI_FinalQ_*/rv_avg.xlsx
+/dir
+/ml_model
+/ren
